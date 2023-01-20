@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-size: b;
   color: #000;
   font-family: schrift_loraNormal, sans-serif;
 }
@@ -94,7 +94,7 @@ durch die img width 100% werden die Bilder schön eingepasst und nicht verzerrt 
 }
 
 img {
-  width: 100%;
+  width: 100px;
 }
 
 /* 
@@ -107,8 +107,8 @@ img {
   background-color: #000;
 }
 
-img {
-  height: 20px;
+.img_vertikcal___hight {
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

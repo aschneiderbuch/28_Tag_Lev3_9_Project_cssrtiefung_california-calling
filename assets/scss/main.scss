@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-size: b;
     color: $farbe_schwarz;
     font-family: schrift_loraNormal, sans-serif;
 }
@@ -112,16 +112,19 @@ dadurch sind die Bilder begrenzt, und responsive durch den Container.
 durch die img width 100% werden die Bilder schön eingepasst und nicht verzerrt  */
 .img_icon___maxWidth {
     max-width: 30px;
+    
 }
+
+
 
 .img_bild___maxWidth {
     max-width: 300px;
 }
 
-img{
-    width: 100%;
-}
 
+img { 
+     width: 100px;
+}
 
 
 
@@ -138,12 +141,11 @@ img{
 .style___backgroundColor_black {
     background-color: $farbe_schwarz;
 }
-    img{
-        height: 20px
-    };
 
 
-
+.img_vertikcal___hight{
+    height: 100px;
+}
 
 
 .button___grundStyle{
