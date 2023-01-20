@@ -1,0 +1,70 @@
+/* ******************** Variable Farben ************* */
+$farbe_schwarz: #000;
+$farbe_weiss: #fff;
+
+
+/* textumrisse
+
+-webkit-text-stroke 
+-webkit-text-stroke-color
+*/
+
+/* ******************** Variable Ränder für margin und padding */
+$rand_10: 10px;
+$rand_20: 20px;
+$rand_50: 50px;
+$rand_100: 100px;
+$rand_200: 200px;
+    /* ******************* neue Steiten defaults ********* */
+
+   * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ************************ html und body *********************+ */
+
+html,
+body {
+    font-size: 16px;
+    max-width: 1440px;
+    scroll-behavior: smooth;
+}
+
+
+/* ************************* Schrift gößen ******************** */
+
+h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    color: $farbe_weiss;
+}
+
+
+h2 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    color: $farbe_weiss;
+}
+
+h3 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    color: $farbe_schwarz;
+}
+
+
+
+h5 {
+    font-size: clamp(0.6rem, 40vw, 0.8rem);
+    color: $farbe_schwarz;
+}
+
+h6 {
+    font-size: clamp(0.6rem, 40vw, 0.8rem);
+    color: $farbe_weiss;
+}
+
+
+p {
+    font-size: clamp(0.8rem, 40vw, 1.1rem);
+
+}

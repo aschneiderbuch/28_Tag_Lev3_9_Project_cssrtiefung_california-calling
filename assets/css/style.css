@@ -1,3 +1,54 @@
+@charset "UTF-8";
+/* ******************** Variable Farben ************* */
+/* textumrisse
 
+-webkit-text-stroke 
+-webkit-text-stroke-color
+*/
+/* ******************** Variable Ränder für margin und padding */
+/* ******************* neue Steiten defaults ********* */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ************************ html und body *********************+ */
+html,
+body {
+  font-size: 16px;
+  max-width: 1440px;
+  scroll-behavior: smooth;
+}
+
+/* ************************* Schrift gößen ******************** */
+h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: #fff;
+}
+
+h2 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: #fff;
+}
+
+h3 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: #000;
+}
+
+h5 {
+  font-size: clamp(0.6rem, 40vw, 0.8rem);
+  color: #000;
+}
+
+h6 {
+  font-size: clamp(0.6rem, 40vw, 0.8rem);
+  color: #fff;
+}
+
+p {
+  font-size: clamp(0.8rem, 40vw, 1.1rem);
+}
 
 /*# sourceMappingURL=style.css.map */
