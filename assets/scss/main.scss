@@ -39,20 +39,20 @@ body {
 h1 {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     color: $farbe_weiss;
-    /* lora */
+    font-family: schrift_loraNormal, sans-serif;
 }
 
 
 h2 {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     color: $farbe_weiss;
-    /* lora */
+    font-family: schrift_loraNormal, sans-serif;
 }
 
 h3 {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     color: $farbe_schwarz;
-    /* lora */
+    font-family: schrift_loraNormal, sans-serif;
 }
 
 
@@ -60,13 +60,13 @@ h3 {
 h4 {
     font-size: clamp(0.8rem, 40vw, 1.1rem);
     color: $farbe_weiss;
-    /* lora */
+    font-family: schrift_loraNormal, sans-serif;
 }
 
 p {
     font-size: clamp(0.8rem, 40vw, 1.1rem);
     color: $farbe_schwarz;
-    /* lora */
+    font-family: schrift_loraNormal, sans-serif;
 
 }
 
@@ -75,11 +75,32 @@ p {
 h5 {
     font-size: clamp(0.6rem, 40vw, 0.8rem);
     color: $farbe_schwarz;
-    /* works */
+    font-family: schrift_worksNormal, sans-serif;
 }
 
 h6 {
     font-size: clamp(0.6rem, 40vw, 0.8rem);
     color: $farbe_weiss;
-    /* works */
+    font-family: schrift_worksNormal, sans-serif;
 }
+
+
+/* *************************** font family ********************* */
+
+@font-face {
+    font-family: schrift_loraNormal;
+    src: url("../fonts/Lora_1/Lora-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family:schrift_worksNormal ;
+    src: url("../fonts/Work_Sans_1/WorkSans-VariableFont_wght.ttf");
+}
+
+/* ******************** font family schrift zum einbindn *********** 
+
+font-family: schrift_loraNormal, sans-serif;
+
+font-family: schrift_worksNormal, sans-serif;
+
+*/
