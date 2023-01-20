@@ -103,10 +103,11 @@ img {
 * ************************ header ************************* */
 /* 
 * ************************ header ************************* */
-header {
+.style___backgroundColor_black {
   background-color: #000;
 }
-header img {
+
+img {
   height: 20px;
 }
 
