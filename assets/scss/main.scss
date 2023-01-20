@@ -15,9 +15,9 @@ $rand_20: 20px;
 $rand_50: 50px;
 $rand_100: 100px;
 $rand_200: 200px;
-    /* ******************* neue Steiten defaults ********* */
+/* ******************* neue Steiten defaults ********* */
 
-   * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -34,21 +34,40 @@ body {
 
 
 /* ************************* Schrift gößen ******************** */
+/* 1+ gerade = weiß         ungerade + p = schwarz */
 
 h1 {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     color: $farbe_weiss;
+    /* lora */
 }
 
 
 h2 {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     color: $farbe_weiss;
+    /* lora */
 }
 
 h3 {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     color: $farbe_schwarz;
+    /* lora */
+}
+
+
+
+h4 {
+    font-size: clamp(0.8rem, 40vw, 1.1rem);
+    color: $farbe_weiss;
+    /* lora */
+}
+
+p {
+    font-size: clamp(0.8rem, 40vw, 1.1rem);
+    color: $farbe_schwarz;
+    /* lora */
+
 }
 
 
@@ -56,15 +75,11 @@ h3 {
 h5 {
     font-size: clamp(0.6rem, 40vw, 0.8rem);
     color: $farbe_schwarz;
+    /* works */
 }
 
 h6 {
     font-size: clamp(0.6rem, 40vw, 0.8rem);
     color: $farbe_weiss;
-}
-
-
-p {
-    font-size: clamp(0.8rem, 40vw, 1.1rem);
-
+    /* works */
 }

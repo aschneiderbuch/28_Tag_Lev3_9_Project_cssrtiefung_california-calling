@@ -22,33 +22,47 @@ body {
 }
 
 /* ************************* Schrift gößen ******************** */
+/* 1+ gerade = weiß         ungerade + p = schwarz */
 h1 {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   color: #fff;
+  /* lora */
 }
 
 h2 {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   color: #fff;
+  /* lora */
 }
 
 h3 {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   color: #000;
+  /* lora */
+}
+
+h4 {
+  font-size: clamp(0.8rem, 40vw, 1.1rem);
+  color: #fff;
+  /* lora */
+}
+
+p {
+  font-size: clamp(0.8rem, 40vw, 1.1rem);
+  color: #000;
+  /* lora */
 }
 
 h5 {
   font-size: clamp(0.6rem, 40vw, 0.8rem);
   color: #000;
+  /* works */
 }
 
 h6 {
   font-size: clamp(0.6rem, 40vw, 0.8rem);
   color: #fff;
-}
-
-p {
-  font-size: clamp(0.8rem, 40vw, 1.1rem);
+  /* works */
 }
 
 /*# sourceMappingURL=style.css.map */
