@@ -43,6 +43,7 @@ h1 {
 }
 
 
+
 h2 {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     color: $farbe_weiss;
@@ -54,6 +55,7 @@ h3 {
     color: $farbe_schwarz;
     font-family: schrift_loraNormal, sans-serif;
 }
+
 
 
 
@@ -112,18 +114,15 @@ dadurch sind die Bilder begrenzt, und responsive durch den Container.
 durch die img width 100% werden die Bilder schön eingepasst und nicht verzerrt  */
 .img_icon___maxWidth {
     max-width: 30px;
-    
 }
 
-
-
 .img_bild___maxWidth {
-    max-width: 300px;
+    max-width: 600px;
 }
 
 
 img { 
-     width: 100px;
+     width: 100%;
 }
 
 
